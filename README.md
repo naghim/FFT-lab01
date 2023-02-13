@@ -17,17 +17,13 @@ Az első laboron, az ingyenes Qt Creator - Open Source Qt Use ([letöltés](http
 
 1. Milyen [típusú projekteket](https://doc.qt.io/qtcreator/creator-project-creating.html) lehet létrehozni?
 
-![](https://doc.qt.io/qtcreator/images/qtcreator-new-qt-quick-project-wizard.png)
+2. Hozzunk létre egy egyszerű C++ projektet és implementáljuk egy `Mátrix` osztályt mely támogatja a mátrixszorzás műveletet. A projekt adatai hol és milyen formában vannak tárolva? Mi a projekt adatokat tartalmazó fájl neve, kiterjesztése, formátuma? Hogyan [kompilálható és futtatható]((https://doc.qt.io/qtcreator/creator-building-targets.html)) a projekt? 
 
-Ábra 1. Projektvarázsló ablak.
+3. Hozzunk létre egy [Qt Console Application](http://www.science.smith.edu/dftwiki/index.php/Qt5/Qt-Creator_%22Hello_World%22_Console_Application) típusú projektet, mely futtatáskor kiírja az aktuális dátumot és pontos időt. Használjuk a [`QDate`](https://doc.qt.io/qt-5/qdatetime.html) osztályt. Miben különbözik ez a projekt a sima C++ projektől?
 
-2.	Hozzunk létre egy egyszerű C++ projektet és implementáljuk egy `Mátrix` osztályt mely támogatja a mátrixszorzás műveletet. A projekt adatai hol és milyen formában vannak tárolva? Mi a projekt adatokat tartalmazó fájl neve, kiterjesztése, formátuma? Hogyan [kompilálható és futtatható]((https://doc.qt.io/qtcreator/creator-building-targets.html)) a projekt? 
-
-3.	Hozzunk létre egy [Qt Console Application](http://www.science.smith.edu/dftwiki/index.php/Qt5/Qt-Creator_%22Hello_World%22_Console_Application) típusú projektet, mely futtatáskor kiírja az aktuális dátumot és pontos időt. Használjuk a [`QDate`](https://doc.qt.io/qt-5/qdatetime.html) osztályt. Miben különbözik ez a projekt a sima C++ projektől?
-
-4.	A prímszámok megtalálására egy adott határértékig, implementáljuk [Eratoszthenész szitáját](https://hu.wikipedia.org/wiki/Eratoszthenész_szitája). Futtassuk a projektet lépésről lépésre, [hibakereső módban](https://doc.qt.io/qtcreator/creator-debugging.html). Hogyan tudunk tőréspontokat (breakpoint) definiálni?  Hogyan tudjuk az [egyes változók értékét megfigyelni](https://doc.qt.io/qtcreator/creator-debug-mode.html)?
+4. A prímszámok megtalálására egy adott határértékig, implementáljuk [Eratoszthenész szitáját](https://hu.wikipedia.org/wiki/Eratoszthenész_szitája). Futtassuk a projektet lépésről lépésre, [hibakereső módban](https://doc.qt.io/qtcreator/creator-debugging.html). Hogyan tudunk tőréspontokat (breakpoint) definiálni?  Hogyan tudjuk az [egyes változók értékét megfigyelni](https://doc.qt.io/qtcreator/creator-debug-mode.html)?
 
 ![](https://doc.qt.io/qtcreator/images/qtcreator-debugger-views.png)
 
-Ábra 2. Hibakeresés ([debugging](https://en.wikipedia.org/wiki/Debugging)) Qt-ben illusztráció.
+Ábra 1. Hibakeresés ([debugging](https://en.wikipedia.org/wiki/Debugging)) Qt-ben, illusztráció.
 
